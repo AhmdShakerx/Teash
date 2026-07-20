@@ -132,7 +132,7 @@ export default function Footer({ onScrollTo }: FooterProps) {
 
           {/* Copyright notice */}
           <div className="text-xs sm:text-sm font-semibold">
-            <p>© {currentYear} الأستاذ أحمد شاكر للثانوية العامة. جميع الحقوق محفوظة.</p>
+            <p>© {currentYear} المهندس أحمد شاكر للثانوية العامة. جميع الحقوق محفوظة.</p>
             <p className="text-slate-600 mt-1">تم التطوير وتصميم الواجهة بمعايير متميزة وجودة ممتازة.</p>
           </div>
 
