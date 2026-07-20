@@ -1,0 +1,6 @@
+{
+  "name": "الأستاذ أحمد شاكر - معلم البرمجة",
+  "description": "منصة الأستاذ أحمد شاكر لحجز حصص مادة البرمجة للصفين الأول والثاني الثانوي بأسلوب تفاعلي وتطبيق عملي حديث.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
