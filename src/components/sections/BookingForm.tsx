@@ -50,19 +50,38 @@ export default function BookingForm() {
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!validate()) return;
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
 
-    setIsSubmitting(true);
-    
-    // Simulate API delay for realistic premium feedback
-    setTimeout(() => {
-      console.log("Submitting booking application:", formData);
-      setIsSubmitting(false);
-      setIsSubmitted(true);
-    }, 1200);
-  };
+  if (!validate()) return;
+
+  setIsSubmitting(true);
+
+  try {
+    await fetch(
+      "https://script.google.com/macros/s/AKfycbyflDNCpeVk7GaHfBDbzHACIWokdqXA_3zWeWpJP5jDljP6DrMTwFYiyhlTPR6gYB3fJA/exec",
+      {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "text/plain;charset=utf-8",
+        },
+        body: JSON.stringify({
+          Name: formData.fullName,
+          Phone: formData.phoneNumber,
+          Grade: formData.stage,
+        }),
+      }
+    );
+
+    setIsSubmitting(false);
+    setIsSubmitted(true);
+  } catch (error) {
+    console.error(error);
+    setIsSubmitting(false);
+    alert("حدث خطأ أثناء إرسال البيانات.");
+  }
+};
 
   const handleReset = () => {
     setFormData({
@@ -74,7 +93,7 @@ export default function BookingForm() {
   };
 
   // Pre-fill a whatsapp message with details
-  const whatsappUrl = `https://wa.me/201012345678?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/201006734678?text=${encodeURIComponent(
     `السلام عليكم يا أستاذ أحمد، لقد قمت بالتسجيل في المنصة الإلكترونية لحجز حصة دراسية لتعلم البرمجة. هذه بياناتي:\n\n👤 الاسم: ${formData.fullName}\n📞 رقم الهاتف: ${formData.phoneNumber}\n🎓 المرحلة: ${formData.stage}\n\nأرجو تأكيد حجز المقعد الخاص بي وشكراً جزيلاً.`
   )}`;
 
