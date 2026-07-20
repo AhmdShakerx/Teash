@@ -167,7 +167,7 @@ export default function Hero({ onScrollToBooking }: HeroProps) {
                 }}
                 className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-slate-900 text-slate-300 font-bold text-base hover:bg-slate-850 border border-slate-800 shadow-sm hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300 cursor-pointer flex items-center justify-center gap-2"
               >
-                <span>تعرّف على الأستاذ</span>
+                <span>تعرّف على البشمهندس</span>
               </button>
             </motion.div>
 
