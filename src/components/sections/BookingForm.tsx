@@ -59,7 +59,7 @@ export default function BookingForm() {
 
   try {
     await fetch(
-      "https://script.google.com/macros/s/AKfycbwqlu9LuPZk1AaUKGHogE-HsddWwu4TYJUKAXiToRUWUGIxSTrCmkjAB6Cg5qiZnwqK3Q/exec",
+      "https://script.google.com/macros/s/AKfycbyLo1i-ONtKki4jfY3ps8nKR7CN9tjr_X2gcjTNcpS79ftmqUs5RHUIWnW6578UKZ2saQ/exec",
       {
         method: "POST",
         mode: "no-cors",
