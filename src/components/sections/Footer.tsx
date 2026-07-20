@@ -77,7 +77,7 @@ export default function Footer({ onScrollTo }: FooterProps) {
                 </div>
                 <div className="text-right">
                   <span className="text-[10px] text-slate-500 block">الاتصال الهاتفي</span>
-                    <span className="font-bold block" dir="ltr">010 1234 5678</span>
+                    <span className="font-bold block" dir="ltr">010 0673 4678</span>
                   </div>
               </a>
 
