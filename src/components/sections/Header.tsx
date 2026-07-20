@@ -48,7 +48,7 @@ export default function Header({ onScrollTo }: HeaderProps) {
               <GraduationCap className="w-5.5 h-5.5" />
             </div>
             <div className="text-right">
-              <span className="font-bold text-lg text-white tracking-tight block leading-none">الأستاذ أحمد شاكر</span>
+              <span className="font-bold text-lg text-white tracking-tight block leading-none">Eng Ahmed Shaker</span>
               <span className="text-[11px] text-slate-400 font-medium block mt-1">مُعلم البرمجة لأولى وتانية ثانوي</span>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function Header({ onScrollTo }: HeaderProps) {
               onClick={() => handleNavClick("booking")}
               className="relative px-5 py-2.5 rounded-xl bg-primary-600 text-white font-semibold text-sm hover:bg-primary-500 shadow-lg shadow-primary-600/20 hover:-translate-y-0.5 active:translate-y-0 active:scale-95 transition-all duration-200 cursor-pointer overflow-hidden flex items-center gap-2"
             >
-              <span>احجز حصتك الآن</span>
+              <span>احجز مكانك الآن</span>
               <PhoneCall className="w-4 h-4" />
             </button>
           </div>
