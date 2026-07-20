@@ -26,7 +26,7 @@ export default function TeacherProfile() {
             className="inline-flex items-center gap-1.5 bg-primary-950/50 border border-primary-800/50 text-primary-300 px-4 py-1.5 rounded-full text-xs font-bold mb-4 flex-row-reverse"
           >
             <Award className="w-4 h-4 text-primary-400" />
-            <span>نبذة عن مُعلّم المادة</span>
+            <span>نبذة عن البشمهندس </span>
           </motion.div>
           
           <motion.h2
@@ -36,7 +36,7 @@ export default function TeacherProfile() {
             transition={{ delay: 0.1 }}
             className="text-3xl md:text-4xl font-extrabold text-white tracking-tight mb-4"
           >
-            استعد للتميز والتفوق مع الأستاذ أحمد شاكر
+            استعد للتميز والتفوق مع المهندس أحمد شاكر
           </motion.h2>
           
           <motion.p
@@ -73,7 +73,7 @@ export default function TeacherProfile() {
                 <div className="relative w-72 h-72 sm:w-80 sm:h-80 rounded-2xl overflow-hidden border-4 border-slate-800 shadow-2xl shadow-black/80 aspect-square">
                   <img
                     src="/p9.jpg"
-                    alt="الأستاذ أحمد شاكر"
+                    alt="المهندس أحمد شاكر"
                     className="w-full h-full object-cover select-none opacity-90"
                     referrerPolicy="no-referrer"
                   />
@@ -81,7 +81,7 @@ export default function TeacherProfile() {
                   {/* Subject Tag overlay on bottom */}
                   <div className="absolute bottom-4 left-4 right-4 bg-slate-900/95 backdrop-blur-md px-4 py-2.5 rounded-xl border border-slate-800/80 shadow-2xl text-center flex items-center justify-center gap-1.5 flex-row-reverse">
                     <GraduationCap className="w-5.5 h-5.5 text-primary-400" />
-                    <span className="font-bold text-white text-sm">مُعلم البرمجة وعلوم الحاسب</span>
+                    <span className="font-bold text-white text-sm">خبير البرمجة وتصميم المواقع </span>
                   </div>
                 </div>
 
@@ -125,7 +125,7 @@ export default function TeacherProfile() {
                 {/* <span className="text-xs font-bold tracking-wider text-primary-400 uppercase">مُعلّم معتمد ومُسجّل</span> */}
               </div>
 
-              <h3 className="text-2xl sm:text-3xl font-extrabold text-white mb-4">الأستاذ أحمد شاكر</h3>
+              <h3 className="text-2xl sm:text-3xl font-extrabold text-white mb-4">المهندس أحمد شاكر</h3>
               
               <p className="text-slate-300 font-medium text-[15px] sm:text-base leading-relaxed mb-6">
                 مُتخصّص في تبسيط وتسهيل مناهج البرمجة وعلوم الحاسب للمرحلة الثانوية (الصفين الأول والثاني الثانوي) بأساليب عملية وتطبيقية تضمن للطالب الفهم الكامل وكتابة الأكواد بطلاقة واحتراف. نسعى دائمًا لخلق بيئة تعليمية تحفز عقل الطالب وتوسع مداركه بأسلوب سلس وممتع.
