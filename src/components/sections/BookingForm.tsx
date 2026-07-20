@@ -94,7 +94,7 @@ export default function BookingForm() {
 
   // Pre-fill a whatsapp message with details
   const whatsappUrl = `https://wa.me/201006734678?text=${encodeURIComponent(
-    `السلام عليكم يا أستاذ أحمد، لقد قمت بالتسجيل في المنصة الإلكترونية لحجز حصة دراسية لتعلم البرمجة. هذه بياناتي:\n\n👤 الاسم: ${formData.fullName}\n📞 رقم الهاتف: ${formData.phoneNumber}\n🎓 المرحلة: ${formData.stage}\n\nأرجو تأكيد حجز المقعد الخاص بي وشكراً جزيلاً.`
+    `السلام عليكم يا بشمهندس أحمد، لقد قمت بالتسجيل في المنصة الإلكترونية لحجز حصة دراسية لتعلم البرمجة. هذه بياناتي:\n\n👤 الاسم: ${formData.fullName}\n📞 رقم الهاتف: ${formData.phoneNumber}\n🎓 المرحلة: ${formData.stage}\n\nأرجو تأكيد حجز وشكراً .`
   )}`;
 
   return (
